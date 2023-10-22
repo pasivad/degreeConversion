@@ -1,0 +1,93 @@
+@import '../../assets/scss/vars.scss';
+
+.mainBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonTable {
+  padding: 15px 30px;
+  height: 54px;
+
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid $dark_gray;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  transition: all .1s ease-in-out;
+  &:hover {
+    background-color: $dark_gray;
+    color: white;
+  }
+}
+
+table {
+  margin: 0px 20px;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.number {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border: 1px solid black;
+
+  vertical-align: middle;
+
+  transition: all .05s ease-in-out;
+  &:hover {
+    background-color: $dark_gray;
+  }
+}
+
+.number__choosen {
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+
+}
+
+.number_choosen {
+  background-color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.convertRadio {
+  display: flex;
+  justify-content: center;
+}
+
+.convertRadio_group {
+  margin: 20px;
+}
+
+.convertRadio_name {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.convertRadio_item {
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+
+  input {
+    margin-right: 5px;
+  }
+}
+
+.convertRadio_group__input {
+  display: flex;
+}

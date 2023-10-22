@@ -1,0 +1,40 @@
+@import './vendor/reset.scss';
+@import './vars.scss';
+@import './fonts.scss';
+
+body {
+  font-family: 'Playpen Sans';
+}
+
+.container {
+  max-width: 1200px;
+  margin: 100px auto 20px;
+  text-align: center;
+}
+
+.title {
+  padding-bottom: 80px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.calculateButton {
+  background-color: white;
+  padding: 15px 50px;
+  border: 3px solid $dark_gray;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 20px;
+
+  transition: all .1s ease-in-out;
+  &:hover {
+    background-color: $dark_gray;
+    color: white;
+  }
+}
+
+.result {
+  margin-top: 40px;
+  font-size: 26px;
+  font-weight: 500;
+}
